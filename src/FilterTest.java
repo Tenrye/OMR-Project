@@ -13,7 +13,7 @@ public class FilterTest {
 
         RunTheFilter();
     }
-
+//Hi Ben
     private static void RunTheFilter() {
         System.out.println("Loading pdf....");
         PImage in = PDFHelper.getPageImage("assets/omrtest.pdf",1);
