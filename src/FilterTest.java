@@ -9,11 +9,11 @@ public class FilterTest {
     public static String currentFolder = System.getProperty("user.dir") + "/";
 
     public static void main(String[] args) {
-        // SaveAndDisplayExample();
+         SaveAndDisplayExample();
 
-        RunTheFilter();
+        //RunTheFilter();
     }
-//Hi tenrai
+//Down Scale Image
     private static void RunTheFilter() {
         System.out.println("Loading pdf....");
         PImage in = PDFHelper.getPageImage("assets/omrtest.pdf",1);

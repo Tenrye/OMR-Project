@@ -1,5 +1,9 @@
+import FileIO.PDFHelper;
+import processing.core.PImage;
+
 import javax.swing.*;
 import java.io.File;
+import java.util.ArrayList;
 
 public class OpticalMarkReaderMain {
     public static void main(String[] args) {
@@ -13,6 +17,11 @@ public class OpticalMarkReaderMain {
         (3).  Create a DImage from each page and process its pixels
         (4).  Output 2 csv files
          */
+        ArrayList<PImage> pages = PDFHelper.getPImagesFromPdf(pathToPdf);
+        for (int i = 0; i < pages.size(); i++) {
+
+        }
+
 
     }
 
